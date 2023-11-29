@@ -43,14 +43,14 @@ export const Home = () => {
       <div className="flex flex-col sm:flex-row justify-center items-center  my-12 font-poppins font-semibold w-full sm:w-3/4 lg:w-1/2">
         <BlackButton
           text="Get In Touch"
-          bgcolor="white"
+          color="white"
           text_col="black"
           extraClasses="mb-4 sm:mb-0 sm:mr-4"
           onClick={contactHandler}
         />
         <BlackButton
           text="Download CV"
-          bgcolor="black"
+          color="black"
           text_col="white"
           extraClasses="sm:ml-4"
           onClick={downloadHandler}

@@ -1,7 +1,9 @@
 import email from "../../assets/images/Email.png";
-import insta from "../../assets/images/instagram.png";
-import twitter from "../../assets/images/x.png";
-import youtube from "../../assets/images/youtube.png";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+
 
 const Contact = () => {
   const instacontactHandler = () => {
@@ -23,7 +25,7 @@ const Contact = () => {
       className="flex justify-center items-center  bg-[#222222] w-full"
       id="contact"
     >
-      <div className="w-[90%] md:w-[60%] my-8 md:my-16 font-poppins">
+      <div className="w-[80%] md:w-[60%] my-8 md:my-16 font-poppins">
         <div className="w-full md:w-[90%]">
           <h1 className="text-white font-bold text-lg md:text-xl my-4">
             Contact
@@ -51,16 +53,16 @@ const Contact = () => {
         <div className="w-full md:w-[20%] my-4 md:my-8">
           <div className="flex justify-between">
             <div role="button" onClick={instacontactHandler}>
-              <img src={insta} alt="" className="w-4 h-4 md:w-5 md:h-5" />
+              <FaInstagram className=" text-white w-6 h-6 md:w-5 md:h-5" />
             </div>
             <div role="button" onClick={xcontactHandler}>
-              <img src={twitter} alt="" className="w-4 h-4 md:w-5 md:h-5" />
+              <FaXTwitter  className=" text-white w-4 h-4 md:w-5 md:h-5" />
             </div>
             <div role="button" onClick={youcontactHandler}>
-              <img src={youtube} alt="" className="w-4 h-4 md:w-5 md:h-5" />
+            <FaGithub className=" text-white w-4 h-4 md:w-5 md:h-5" />
             </div>
             <div role="button" onClick={linkedIncontactHandler}>
-              <img src={youtube} alt="" className="w-4 h-4 md:w-5 md:h-5" />
+            <BsLinkedin className="font-white text-white w-5 h-6"/>
             </div>
           </div>
         </div>

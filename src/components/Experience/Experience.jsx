@@ -3,21 +3,21 @@ import Experiences from "../Experience/Experiences";
 const Experience = () => {
   const concepts = [
     {
-      date: "Sept 2023 -  Nov 2023",
+      date: "[Sept 2023 -  Nov 2023]",
       title: "Intern, Front-end Developer",
       place:"HNGx ",
       description:
         "As an intern at HNG , I've crafted stunning and responsive user interfaces that captivate and engage users. My expertise includes proficiency in HTML, CSS, JavaScript,Git , Tailwind, Typescript and various modern frameworks like Reactjs, Nextjs, Astro.",
     },
     {
-      date: "Feb 2021 -  Dec 2021",
+      date: "[Feb 2021 -  Dec 2021]",
       title: "Intern , Software Engineer ",
       place:"New Horizons ",
       description:
         "As a software engineering Intern at New Horizons, I offer expertise in full-stack development, from crafting elegant front-end interfaces to designing scalable back-end architectures. My commitment to clean code and rigorous testing ensures robust and maintainable software solutions. I bring innovation and problem-solving to every project, delivering technology-driven results that drive success.",
     },
     {
-      date: "June 2020- December 2020",
+      date: "[June 2020- December 2020]",
       title: "Software Engineer Training",
       place:"ALX Africa ",
       description:
