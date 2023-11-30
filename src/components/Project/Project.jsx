@@ -26,8 +26,10 @@ const Project = () => {
           />
         </div>
         <div className="w-full flex justify-center items-center flex-wrap">
-          <Projects projectName="Help Me Out" image={project3} />
-          <Projects projectName="Movie-Box PROJECT" image={project4} />
+          <Projects projectName="Help Me Out" image={project3} link="https://help-me-out-web-gamma.vercel.app/"
+            fileUrl="https://help-me-out-web-gamma.vercel.app/" />
+          <Projects projectName="Movie-Box PROJECT" image={project4} link="https://movie-box-eosin.vercel.app/"
+            fileUrl="https://movie-box-eosin.vercel.app/" />
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import BlackButton from "../Button/Button";
 export const Home = () => {
   const downloadHandler = () => {
     const fileUrl =
-      "https://drive.google.com/uc?export=download&id=1YobuEs1jKetILrMiyg44DZfwpsTiaIuOc5fBnP6bzks";
+      "https://drive.google.com/uc?export=download&id=1GMz1qcKduUq8ztCJaLk3tsNrz1dprv_H";
     window.open(fileUrl);
   };
   const contactHandler = () => {
